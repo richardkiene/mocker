@@ -81,6 +81,20 @@ docker model run gemma3:1b
 
 That's it! No subscriptions. No API keys. No BS.
 
+## Available Models
+
+Mocker provides access to any model available at [ollama.com](https://ollama.com/library). Simply use the `docker model pull` command followed by the model name and tag to download and use any of these models.
+
+```bash
+# Pull any model from the Ollama library
+docker model pull llama3:8b
+docker model pull mistral:latest
+docker model pull codellama:7b
+docker model pull phi3:mini
+```
+
+You can browse the full list of available models at [ollama.com/library](https://ollama.com/library) to find the one that best fits your needs, whether you're looking for code generation, chat functionality, or specialized domain expertise.
+
 ## Commands
 
 ### Status
