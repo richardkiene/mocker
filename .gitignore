@@ -1,0 +1,53 @@
+# Compiled binaries
+*.exe
+*.so
+*.dylib
+*.a
+*.o
+
+# Object files
+*.obj
+
+# Executables
+/bin/
+
+# IDE Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+*.tmp
+*~
+.history/
+*.log
+
+# Dependencies
+/vendor/
+
+# Distribution / Build artifacts
+/dist/
+/build/
+/pkg/
+
+# Go specific
+*.prof
+*.stack
+*.out
+go.test
+*.coverprofile
+*.coverhtml
+
+# Editor backups
+*~
+*.bak
+
+# Temporary files
+tmp/
+temp/
+
+# Ignore Go modules cache
+/go/pkg/mod/cache/
+
+# Debugging files
+*.dSYM/
